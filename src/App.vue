@@ -226,7 +226,7 @@ const add_clicked = () => {
 </script>
 
 <template>
-  <div class="flex min-h-screen w-screen flex-row bg-gray-900 text-gray-100">
+  <div class="flex min-h-screen w-screen flex-row bg-gray-900 p-4 text-gray-100">
     <!-- The nav section of the page -->
     <nav class="w-3/8">
       <ul v-if="saved" class="h-screen overflow-x-scroll">
